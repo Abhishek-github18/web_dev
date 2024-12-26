@@ -1,0 +1,37 @@
+<!-- 
+Web Development
+
+HTML + CSS + JavaScript + ReactJs + NodeJs + ExpressJs + MongoDB
+
+HTML - Website Structure - Content display
+HTML - HyperText (Text + Image + Multimedia + Link) Markup(Structure) Language
+CSS - Website Design - Cascading Style Sheet
+JavaScript - Website Functionality - Logic handling
+-->
+
+<!-- 
+
+Tags - HTML, HEAD, TITLE, Meta
+
+-->
+
+<!-- Two kinds of Tags
+Closing tag - <html> </html> / <h1></h1>
+Self Closing Tag - <meta>
+-->
+<!-- HTML is a non-sensitive(case- Uppercase/lowercase) language -->
+<!-- HTML is a case-insensitive language 
+-->
+
+    <!-- WHAT IS HTML ELEMENT 
+    <h1></h1>
+    h1 - html tag (heading tag)
+    <h1> - opening tag
+    </h1> - closing tag
+
+    <h6>Heading 6</h6> -- Tag + Content = HTML element
+    -->
+
+
+
+target="" ---- anchor tag attribute
