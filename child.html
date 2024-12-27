@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        iframe {
+          width: 100%;
+          height: 300px;
+          border: 1px solid #ccc;
+        }
+        .link-container {
+          margin: 20px 0;
+        }
+      </style>
+</head>
+<body>
+    <div  id="child-html">
+        <h2>Child Page (Inside Iframe)</h2>
+        <div class="link-container">
+          <a href="https://en.wikipedia.org/wiki/Modi" target="_self">Open in _self (Same Frame)</a>
+        </div>
+        <div class="link-container">
+          <a href="https://en.wikipedia.org/wiki/Narendra_Modi" target="_parent">Open in _parent (Main Page)</a>
+        </div>
+      </div>
+    
+</body>
+</html>
