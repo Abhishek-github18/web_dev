@@ -11,7 +11,80 @@
     <meta name="description" content="Abhishek's Resume" />
     <!-- Description of the document -->
     <meta author="Abhishek Anand" />
+
+    <Link rel="stylesheet" href="../../../../../games/_Oceanofgames.com_Call_of_Duty_MW3.zip" />
+    <!-- 
+    Two types of path
+    1. Absolute path - Full path
+    2. Relative path - Relative to the current file
+    how to give relative path (folder - directory)
+    1. Same folder - file name
+    2. Inside the folder - folder name/file name
+    3. Outside the folder - ../file name
+    4. to exit the current directory - ../
+
+    -->
+
+
     <!-- Author of the document -->
+
+    <!-- HTML - To define the structure of the website -->
+     <!-- IF we have to design that structure  --- CSS (Cascading style sheet) -->
+    <!-- 
+    To integrate the css we have 3 options
+    
+    1. Inline CSS - Inside the HTML tag
+
+    <h1 style="color: red;">Heading 1</h1>
+    <h6 style="font-size: 40px; font-family:'Courier New', Courier, monospace">Heading 6</h6>
+
+    Inline CSS is not recommended because it is not reusable and not maintainable
+
+
+    2. Internal CSS - Inside the head tag
+
+    <style>
+      h1 {
+        color: red;
+      }
+      h6 {
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+      }
+    </style>
+
+    Problem with Internal CSS - Not reusable
+
+    3. External CSS - Separate file
+    TO link the external css file we use link tag
+    <Link rel="stylesheet" href="style.css" />
+    
+    -->
+
+    <!-- Internal CSS -->
+    <style>
+      /* 
+      Which element you want to style
+      {
+        property: value;
+      }
+      */
+
+      /* h3 {
+        color: red;
+        background-color: yellow;
+      }
+      h4 {
+        color: aqua;
+      }
+      h5 {
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+        color: grey;
+      } */
+    </style>
+
+
   </head>
 
   <!-- Hindi / English / Spainish / Russian -->
@@ -19,12 +92,12 @@
   <body>
     This is Abhishek's Resume This is Ashutosh's Resume
     <!-- 6 types of heading -->
-    <h1>Heading 1</h1>
-    <h2>Heading 2</h2>
+    <h1 style="color: red; background-color: yellow;">Heading 1</h1>
+    <h2 style="color: aqua;">Heading 2</h2>
     <h3>Heading 3</h3>
     <h4>Heading 4</h4>
     <h5>Heading 5</h5>
-    <h6>Heading 6</h6>
+    <h6 style="font-size: 40px; font-family:'Courier New', Courier, monospace">Heading 6</h6>
 
     <!-- paragraph tag -->
     <!-- <b>
@@ -105,7 +178,7 @@
     href - hyperlink reference
     -->
     <!-- attributes
-    attributes = properties of html tag 
+      attributes = properties of html tag 
     -->
     <!-- Nested element
     
@@ -114,7 +187,7 @@
     -->
     <br />
     <hr />
-    <a href="https://en.wikipedia.org/wiki/Manmohan_Singh" target=""
+    <a href="https://en.wikipedia.org/wiki/Manmohan_Singh" target="_blank"
       >Link to other website</a
     >
 

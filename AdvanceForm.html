@@ -4,10 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Form Example</title>
+
+    <style>
+        #name{
+            background-color: #000;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
     <h1>Sample Form</h1>
-    <form action="/submit" method="post">
+<!-- 
+    Two types of method
+ 1. GET -- data is visible in URL
+ 2. POST -- data is not visible in URL
+-->
+
+<!-- 
+    id -- use to identify the element - it is unique for whole page
+-->
+    <form action="/submit">
         <!-- Text Input -->
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">

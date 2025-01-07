@@ -35,3 +35,11 @@ Self Closing Tag - <meta>
 
 
 target="" ---- anchor tag attribute
+
+
+http://127.0.0.1:5500/submit?name=Abhi&email=&password=&age=&dob=&country=india&message=&resume=
+
+http://127.0.0.1:5500/submit?name=&email=&password=Abhi%401234&age=&dob=&country=india&message=&resume=
+url?--->query parameter
+
+Abhi@1234

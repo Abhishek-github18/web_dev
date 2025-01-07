@@ -1,0 +1,14 @@
+/* External CSS */
+
+h3 {
+    color: red;
+    background-color: yellow;
+  }
+h4 {
+    color: aqua;
+}
+h5 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    color: grey;
+}
